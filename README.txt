@@ -9,6 +9,8 @@ os, csv, argparse, tdclient, prettytable
 
 Please install argparse, tdclient and prettytable through pip or Anaconda
 
+The script writes the results to a file in the same directory and then prints the output from the file. Please run the script in a folder where there is permisssion to create a file.
+
 Sample Output:
 
 C:\Users\Utkarsh\Documents\TreausreData>query.py -c "time,order_id,quantity,profit" -M 1510462800 sample_superstore orders -l 10
